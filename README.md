@@ -18,7 +18,7 @@ If you choose to use the .exe file, you don't need to have Python installed, jus
 
 To convert the script to a .exe executable file, it is recommended to use the "pyinstaller" tool as follows:
 ```
-pyinstaller --onefile --noconsole --icon=C:/b64xD/icon.ico .\b64xD.py
+pyinstaller --onefile --noconsole --icon=C:./icon.ico .\b64xD.py
 ```
 **Note that the icon file must be in the same folder as the script.**
 
