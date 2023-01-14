@@ -1,5 +1,6 @@
 # b64xD
-#Base64 encrypt .exe files
+
+# **Base64 encrypt .exe files**
 
 This project is a desktop application developed in Python that allows for encrypting .exe files in base64.
 
