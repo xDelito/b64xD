@@ -1,6 +1,12 @@
 import base64
 from tkinter import Tk, Button, Label, filedialog
 from tkinter.scrolledtext import ScrolledText
+import pyperclip
+
+def copy_to_clipboard():
+    result_text.clipboard_clear()
+    result = result_text.get('1.0', 'end')
+    pyperclip.copy(result)
 
 def encrypt_file_base64(file_path):
     with open(file_path, 'rb') as file:
@@ -18,10 +24,6 @@ def select_file():
     result_text.delete('1.0', 'end')
     result_text.insert('end', encryption_output)
     result_text.config(state='disabled')
-
-def copy_to_clipboard():
-    result_text.clipboard_clear()
-    result_text.clipboard_append(result_text.get('1.0', 'end'))
 
 root = Tk()
 root.title("Encrypt in base64 by xDelito")
