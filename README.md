@@ -8,7 +8,7 @@ To use the application, you can either use the Python script or the generated .e
 
 Copy code
 ```
-python [script_name.py]
+python b64xD.py
 ```
 If you choose to use the .exe file, you don't need to have Python installed, just double click on the executable file and it will launch the application.
 
@@ -16,7 +16,7 @@ To convert the script to a .exe executable file, it is recommended to use the "p
 
 Copy code
 ```
-pyinstaller --onefile --noconsole --icon=C:/b64xD/icon.ico .\script_name.py
+pyinstaller --onefile --noconsole --icon=C:/b64xD/icon.ico .\b64xD.py
 ```
 **Note that the icon file must be in the same folder as the script.**
 
