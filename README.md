@@ -1,4 +1,5 @@
-# <center>b64xD</center>
+<center>b64xD</center>
+<hr>
 
 # **Base64 encrypt .exe files**
 
