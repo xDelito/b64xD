@@ -40,7 +40,7 @@ def select_file():
         result_text.insert('end', encryption_output)
         result_text.config(state='disabled')
     except Exception as e:
-        print(f"Error al encriptar el archivo: {e}")
+        print(f"Error encrypting the file: {e}")
 
 
 root = Tk()
