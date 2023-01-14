@@ -16,7 +16,7 @@ To convert the script to a .exe executable file, it is recommended to use the "p
 
 Copy code
 ```
-pyinstaller --onefile --noconsole --icon=icon.ico [script_name.py]
+pyinstaller --onefile --noconsole --icon=C:/b64xD/icon.ico .\script_name.py
 ```
 **Note that the icon file must be in the same folder as the script.**
 
