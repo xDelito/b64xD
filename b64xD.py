@@ -26,7 +26,7 @@ def copy_to_clipboard():
 root = Tk()
 root.title("Encrypt in base64 by xDelito")
 root.geometry("530x469")
-root.iconbitmap("C:/Users/azebe/Documents/GitHub/susy/pirate.ico") #agregar esta linea para establecer el icono de la aplicacion
+root.iconbitmap("./pirate.ico") #agregar esta linea para establecer el icono de la aplicacion
 
 select_file_button = Button(root, text="Select file", command=select_file)
 select_file_button.pack()
