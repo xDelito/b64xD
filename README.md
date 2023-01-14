@@ -1,5 +1,7 @@
 <hr>
-<h1>                                                                      b64xD</h1>
+<p align="center">
+<h1>b64xD</h1>
+</p>
 <hr>
 
 # **Base64 encrypt .exe files**
