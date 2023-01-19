@@ -20,6 +20,6 @@ To convert the script to a .exe executable file, it is recommended to use the "p
 ```
 pyinstaller --onefile --noconsole --icon=icon.ico .\b64xD.py
 ```
-**Note that the icon file must be in the same folder as the script or .exe**
+**Note that the icon file must be in the same folder as the script or .exe for it to work.**
 
 I hope this project is useful for you, if you have any questions or suggestions, please don't hesitate to contact me.
